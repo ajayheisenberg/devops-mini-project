@@ -17,8 +17,8 @@ pipeline {
         stage('Deploy') {
             steps {
                 sh '''
-                    mkdir -p /var/www/html/devops-project/
-                    cp -r * /var/www/html/devops-project/
+                     mkdir -p /home/ajay/devops-project/
+                     cp -r * /home/ajay/devops-project/
                 '''
             }
         }
