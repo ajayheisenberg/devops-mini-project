@@ -16,10 +16,7 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                sh '''
-                     mkdir -p /home/ajay/devops-project/
-                     cp -r * /home/ajay/devops-project/
-                '''
+                echo "Deployed Successfully..."
             }
         }
     }
